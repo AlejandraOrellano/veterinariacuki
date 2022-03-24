@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+  padding-left: 3rem;
+}
+
+h1:hover{
+  color: #ff5e5e;
+}
+
+header{
+  height:60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #832020;
+}
+
+.menu{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.menu a{
+  text-decoration: none;
+  font-weight: 500;
+  color:#ffffff;
+  padding-right: 3rem;
+}
+
+.menu a:hover{
+  color:#ff5e5e;
+}
+
+section{
+  padding: 1.5rem;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 6px rgba(0,0,0,0); 
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 6px rgba(0,0,0,0);
+}
+
+section h4{
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+h2{
+  padding-top: 1.2rem;
+  color: #b61e1e;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h3{
+  padding-top: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.contenedor{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imagen{
+  width: 300px;
+}
+
+.articulo p{
+  text-align: center;
+  width: 300px;
+}
+
+footer{
+  padding: 2rem;
+  text-align: center;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 6px rgba(0,0,0,0); 
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 6px rgba(0,0,0,0);
+}
+
+footer i{
+  width: 5rem;
+  font-size: 2rem;
+  color:#b61e1e
+}
+
+footer i:hover{
+  color:#640e0e;
+}
+
+footer p{
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 1000px){
+  .contenedor{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  h1{
+    font-size: 1.5rem;
+    padding-left: 1rem;
+  }
+
+  h2{font-size: 1.2rem;
+  }
+
+  footer p{
+    font-size: .9rem;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .contenedor{
+    grid-template-columns: 1fr;
+  }
+
+  .articulo p{
+    padding: 0 0 2rem 0;
+  }
+
+  h1{
+    font-size: .9rem;
+    text-align: center;
+  }
+
+  .menu a{
+    font-size: .9rem;
+    padding-right: 1rem;
+  }
+}
+
