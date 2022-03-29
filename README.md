@@ -1,4 +1,4 @@
-# Desafio Desarrollo Web Estatica Basica de Veterinaria 👩‍💻
+# Desafío 2 - Desarrollo Web Estática Basica de Veterinaria 👩‍💻
 Actividad del curso de Argentina Programa, desarrollando una web básica de veterinaria utilizando HTML y CSS.
 
 Proyecto: https://alejandraorellano.github.io/veterinariacuki/
